@@ -2,18 +2,18 @@ void	ft_putchar(char c);
 
 void	first_line(int x)
 {
-		ft_putchar('o');
+		ft_putchar('/');
 		if (x > 1)
 		{
 			if (x > 2)
 			{
 				while (x > 2)
 				{
-					ft_putchar('-');
+					ft_putchar('*');
 					x--;
 				}
 			}
-			ft_putchar('o');
+			ft_putchar('\\');
 		}
 		ft_putchar('\n');
 }
@@ -24,30 +24,30 @@ void	middle_lines(int x, int y)
 
 	while (y-- > 2)
 	{
-		ft_putchar('|');
+		ft_putchar('*');
 		i = x - 2;
 		while (i-- > 0)
 			ft_putchar(' ');
 		if (x > 1)
-			ft_putchar('|');
+			ft_putchar('*');
 		ft_putchar('\n');
 	}
 }
 
 void	last_line(int x)
 {
-		ft_putchar('o');
+		ft_putchar('\\');
 		if (x > 1)
 		{
 			if (x > 2)
 			{
 				while (x > 2)
 				{
-					ft_putchar('-');
+					ft_putchar('*');
 					x--;
 				}
 			}
-			ft_putchar('o');
+			ft_putchar('/');
 		}
 		ft_putchar('\n');
 }
