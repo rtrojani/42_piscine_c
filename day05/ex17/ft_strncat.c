@@ -7,7 +7,7 @@ int		ft_strlen(char *str)
 	return (i);
 }
 
-char *ft_strncat(char *dest, char *src, int nb)
+char	*ft_strncat(char *dest, char *src, int nb)
 {
 	int		i;
 

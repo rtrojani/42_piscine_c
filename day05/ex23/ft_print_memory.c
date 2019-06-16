@@ -1,6 +1,6 @@
 void	ft_putchar(char c);
 
-void	putnbr_hexa(int c)
+void	putnbr_hexa(unsigned long int c)
 {
 	char	*base;
 

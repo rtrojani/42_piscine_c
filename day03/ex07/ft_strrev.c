@@ -7,15 +7,6 @@ int		ft_strlen(char *str)
 	return (i);
 }
 
-/*void	ft_swap(char a, char b)
-{
-	char	c;
-
-	c = a;
-	a = b;
-	b = c;
-}*/
-
 char	*ft_strrev(char *str)
 {
 	int		i;
