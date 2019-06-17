@@ -1,3 +1,5 @@
+#ifndef FT_H
+# define FT_H
 int				ft_atoi_base(char *str, char *base);
 int				ft_atoi(char *str);
 void			ft_div_mod(int a, int b, int *div, int *mod);
@@ -48,3 +50,4 @@ char			*ft_strupcase(char *str);
 void			ft_swap(int *a, int *b);
 void			ft_ultimate_div_mod(int *a, int *b);
 void			ft_ultimate_ft(int *********nbr);
+# endif
